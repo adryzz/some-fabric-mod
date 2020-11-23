@@ -16,7 +16,7 @@ import net.minecraft.network.packet.c2s.play.CustomPayloadC2SPacket;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Identifier;
 import org.apache.logging.log4j.core.config.plugins.util.ResolverUtil;
-import sun.security.pkcs11.Secmod;
+//import sun.security.pkcs11.Secmod;
 
 import java.util.ArrayList;
 import java.util.List;
