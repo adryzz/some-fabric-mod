@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "me.constantindev.nebula.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+  ],
+  "client": [
+    "ExampleMixin",
+    "MainMenuMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
