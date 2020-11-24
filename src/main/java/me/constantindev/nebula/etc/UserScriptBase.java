@@ -9,7 +9,7 @@ public class UserScriptBase {
     }
 
     public void run() {
-        //custom code goes here after @override
+        //custom code goes here after an @override
 
     }
 
