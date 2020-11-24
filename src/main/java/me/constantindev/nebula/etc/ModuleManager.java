@@ -6,11 +6,20 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class ModuleManager {
-    List<ModuleBase> v = new ArrayList<>();
+    List<ModuleBase> modules = new ArrayList<>();
     public List<ModuleBase> getModules() {
-        return v;
+        return modules;
     }
     public ModuleManager() {
-        v.add(new CrasherTest());
+        modules.add(new CrasherTest());
+    }//The new crashertest here is just for debugging. it will be removed after we have an usable codebase.
+
+    public ModuleBase getModuleByName(String name) {
+        for (ModuleBase b : modules) {
+            if (b.getName().equals(name)) {
+                return b;
+            }
+        }
+        return null;
     }
 }

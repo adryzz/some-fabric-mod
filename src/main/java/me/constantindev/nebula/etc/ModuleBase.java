@@ -20,6 +20,10 @@ public class ModuleBase {
         this.enabled = enabled;
     }
 
+    public void toggleEnabled() {
+        this.enabled = !this.enabled;
+    }
+
     public String getDesc() {
         return desc;
     }
